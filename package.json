@@ -1,0 +1,32 @@
+{
+  "name": "zsh-win",
+  "version": "1.0.5",
+  "description": "CLI tool to install Zsh in Git Bash on Windows.",
+  "main": "js/index.cjs",
+  "type": "module",
+  "bin": {
+    "zsh-win": "./js/index.cjs"
+  },
+  "dependencies": {
+    "ora": "^6.0.0",
+    "inquirer": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node js/index.cjs"
+  },
+  "keywords": [
+    "zsh",
+    "git bash",
+    "windows",
+    "cli tool",
+    "terminal customization",
+    "zsh themes",
+    "powerlevel10k",
+    "agnoster",
+    "robbyrussell",
+    "node.js",
+    "npm"
+  ],
+  "author": "w3cdpass",
+  "license": "ISC"
+}
