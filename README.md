@@ -30,3 +30,4 @@ Before using `zsh-win`, make sure you have the following installed on your syste
 
 
 # zsh-win
+# zsh-win
