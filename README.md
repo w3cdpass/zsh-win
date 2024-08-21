@@ -2,6 +2,7 @@
 ```bash
 npm install -g zsh-win
 ```
+![Demo](./final.gif)
 
 ## Prerequisites
 
