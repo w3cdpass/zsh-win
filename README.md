@@ -3,7 +3,7 @@
 <table width="100%">
   <tr>
     <td align="center" style="width: 50%;">
-      <img src="./final.gif" alt="watch Video" width="400" height="270"/>
+      <img src="./final.gif" alt="watch Video" width="400" height="240"/>
     </td>
     <td align="center" style="width: 50%;">
       <img src="./custom.png" alt="watch Video"/>
@@ -33,9 +33,9 @@ Visual Studio Code: Open File → Preferences → Settings (PC) or Code → Pref
 
 ****
 # Step #1
-<div style="border-left: 4px solid yellow; padding-left: 10px;">
-<strong style="color:yellow">IMPORTANT:</strong> <span style="text-decoration:underline;">Don't skip this step</span>.
-</div>
+  >  <div style="border-left: 4px solid yellow; padding-left: 10px;">
+  <strong style="color:yellow">IMPORTANT:</strong> <span style="text-decoration:underline;">Don't skip this step</span>.
+  </div>
 
 
 ## Run `git bash` as `admin`
