@@ -14,12 +14,18 @@
 ## Table of Contents
 
 - [Installation](#-installtion)
-- [Issue](#issue)
+- [Issue](#the-issue-title)
+  - [Git bash is not opening as admin in windows](#issue-1)
+  - [`zsh` cmd not found](#issue-2)
+  - [Icon/Symbols are missing](#issue-3)
+  - [Custom zsh-theme is not working](#when-to-report-an-issue)
+  - [Common Issues](#common-issues)
+  - [Troubleshooting](#troubleshooting)
+
 
 # 🤓 Installtion
   * ## Prerequisites
     - **[Git Bash](https://git-scm.com/download/win)**: A command-line interface for Windows that provides a Unix-like shell. 
-      * [`WSL`](https://www.microsoft.com/p/ubuntu/9pdxgncfsczv) also a great choice .
     - **[Node.js](https://nodejs.org/en/download/)**: A JavaScript runtime that allows you to run and install npm packages.  
 ****
 ### To avoid issue
@@ -86,7 +92,7 @@ zsh-win
 
   > Note: You can select any zsh `theme` from  <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell" style="text-decoration:underline;">`ohmyzshthemes`</a> .
 - ## Example #2 😎🔥
-  * ### Wants to use another seprate `zsh theme` that is not in [~/.oh_my_zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes).
+  * ### Wants to use another seprate `zsh theme` that is not in [~/.oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes).
   Like <a href="https://github.com/romkatv/powerlevel10k" style="text-decoration:underline;">`powerlevel10k`</a> and [more](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes#simplerich-theme)
   ___
   ```bash
@@ -98,4 +104,49 @@ zsh-win
   ```
   - Then type `p10k configure` or `zsh` . _to use it_ 
 
-     __For Instance__: Add custom themes in `./oh_my_zsh/custom/themes` folder with `theme.zsh-theme` .
+     __For Instance__: Add custom themes in `./oh-my-zsh/custom/themes` folder with `theme.zsh-theme` .
+## The issue title
+
+### _ISSUE_ __#1__
+Git bash is not opening as `admin` in `windows` .
+  > Try Manually
+  * Tested on Windows 11
+  * Open Command Pormpt .
+  * Type `ctrl + ,` go to setting .
+  * Click the `Git bash` profile .
+  * Check the button `Run this profile as Administrator` .
+
+    <p><img src="./fIssue1.png" width="400", height="400"></p>
+
+    - Then go to [`Step #2`](#step-2)
+
+### _ISSUE_ __#2__
+`Zsh` command not found .
+  
+  > Try Manually
+  * Download the `both` .exe files from [`source code`](https://github.com/w3cdpass/zsh-win/tree/main/js/zsh) .
+  * Paste these .exe in `C:/Program Files/Git/usr/bin` , Where `Git` is installed .
+  
+    <p><img src="./fissue2.png" width="550" height="300"></p>
+
+      - Then go to [`Step #2`](#step-2)
+
+### _ISSUE_ __#3__
+Icon/Symbols are `missing`.
+
+* Follow these [`steps`](#to-avoid-issue) .
+* Before you start, install those `.ttf` on you system
+* Then Restart your `IDe` .
+* After installation
+  - <img src="./errorzshICONS.png"> 
+  - <img src="./SuccesIcon.png">
+
+  > Refreance: Still doesn't work  [`follow this link`](https://github.com/romkatv/powerlevel10k/issues/671) .
+
+
+### _ISSUE_ __#3__
+
+Custom `zsh-theme` is not working .
+* All custom themes of `Zsh` are in `~/.oh-my-zsh/custom/themes`
+* Make sure the the `custom.zsh-theme` exist.
+* Then change the value `ZSH_THEME="custom"` in `.zshrc`.
