@@ -86,11 +86,12 @@ zsh-win
   Like <a href="https://github.com/romkatv/powerlevel10k" style="text-decoration:underline;">`powerlevel10k`</a> and [more](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes#simplerich-theme)
   ___
   ```bash
-  #powelevel10k
+  # powelevel10k
   # use this cmd in git bash
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
+  # ZSH_THEME="powerlevel10k/powerlevel10k"
   sed -i.bak '/^ZSH_THEME=/c\ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
-
   ```
-  - Then type `p10k configure`
+  - Then type `p10k configure` or `zsh` . _to use it_ 
+
+     __For Instance__: Add custom themes in `./oh_my_zsh/custom/them` folder with `theme.zsh-theme` .
