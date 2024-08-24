@@ -11,11 +11,15 @@
   </tr>
 </table>
 
+## Table of Contents
 
+- [Installation](#-installtion)
+- [Issue](#issue)
 
 # 🤓 Installtion
   * ## Prerequisites
     - **[Git Bash](https://git-scm.com/download/win)**: A command-line interface for Windows that provides a Unix-like shell. 
+      * [`WSL`](https://www.microsoft.com/p/ubuntu/9pdxgncfsczv) also a great choice .
     - **[Node.js](https://nodejs.org/en/download/)**: A JavaScript runtime that allows you to run and install npm packages.  
 ****
 ### To avoid issue
