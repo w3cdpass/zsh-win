@@ -127,7 +127,7 @@ Git bash is not opening as `admin` in `windows` .
   * Download the `both` .exe files from [`source code`](https://github.com/w3cdpass/zsh-win/tree/main/js/zsh) .
   * Paste these .exe in `C:/Program Files/Git/usr/bin` , Where `Git` is installed .
   
-    <p><img src="./fissue2.png" width="550" height="300"></p>
+    <p><img src="./assets/fissue2.png" width="550" height="300"></p>
 
       - Then go to [`Step #2`](#step-2)
 
