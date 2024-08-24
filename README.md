@@ -6,7 +6,7 @@
       <img src="./final.gif" alt="watch Video" width="600" height="270"/>
     </td>
     <td align="center" style="width: 50%;">
-      <img src="./custom.png" alt="watch Video"  width="600", height="270"/>
+      <img src="./custom.png" alt="watch Video"  />
     </td>
   </tr>
 </table>
@@ -33,6 +33,11 @@ Visual Studio Code: Open File → Preferences → Settings (PC) or Code → Pref
 
 ****
 # Step #1
+<div style="border-left: 4px solid yellow; padding-left: 10px;">
+<strong style="color:yellow">IMPORTANT:</strong> <span style="text-decoration:underline;">Don't skip this step</span>.
+</div>
+
+
 ## Run `git bash` as `admin`
   - **Press:** 
 <span style="background-color:#e1e1e1;border-radius:3px;padding:2px 6px;color:black;"><strong>Windows</strong></span> + 
@@ -53,12 +58,12 @@ zsh-win
 ```
 2. From `source code`
 ```
-    git clone https://github.com/w3cdpass/zsh-win.git
-    cd zsh-win
-    npm i
-    node js/index.cjs
+  git clone https://github.com/w3cdpass/zsh-win.git
+  cd zsh-win
+  npm i
+  node js/index.cjs
 ```
-   Note: Run the `git bash` as `admin` to install from `source code`
+   > Note: Run the `git bash` as `admin` to install from `source code`
 
 # Step #3
 <img src="./step2.png">
