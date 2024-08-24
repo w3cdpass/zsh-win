@@ -69,9 +69,9 @@ zsh-win
 - * ❤️ Custom is great. If any issue with `custom` reffer this <a href="#issue" style="text-decoration:underline">issue</a>.
 
 # Step #4⚡
-# 🪄 After installation type `zsh-win` to see the magic in `git bash`
+## 🪄 After installation type `zsh-win` to see the magic in `git bash`
 
-# Welcome to `Customization` ✨
+## Welcome to `Customization` ✨
 - ## Example #1 🥱
   ```bash
   vim ~/.zshrc 
@@ -80,7 +80,7 @@ zsh-win
   - Change the value `ZSH_THEME="cloud"` and save it .
   - Type `zsh` on `git bash` to activate theme .
 
-  Note: You can select any `theme` from in zsh from <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell" style="text-decoration:underline;">`ohmyzsh themes`</a> .
+  > Note: You can select any zsh `theme` from  <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell" style="text-decoration:underline;">`ohmyzshthemes`</a> .
 - ## Example #2 😎🔥
   * ### Wants to use another seprate `zsh theme` that is not in [~/.oh_my_zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes).
   Like <a href="https://github.com/romkatv/powerlevel10k" style="text-decoration:underline;">`powerlevel10k`</a> and [more](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes#simplerich-theme)
@@ -94,4 +94,4 @@ zsh-win
   ```
   - Then type `p10k configure` or `zsh` . _to use it_ 
 
-     __For Instance__: Add custom themes in `./oh_my_zsh/custom/them` folder with `theme.zsh-theme` .
+     __For Instance__: Add custom themes in `./oh_my_zsh/custom/themes` folder with `theme.zsh-theme` .
