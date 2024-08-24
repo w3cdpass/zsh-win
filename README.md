@@ -3,10 +3,10 @@
 <table width="100%">
   <tr>
     <td align="center" style="width: 50%;">
-      <img src="./final.gif" alt="watch Video" width="400" height="220"/>
+      <img src="./assets/final.gif" alt="watch Video" width="400" height="220"/>
     </td>
     <td align="center" style="width: 50%;">
-      <img src="./custom.png" alt="watch Video"/>
+      <img src="./assets/custom.png" alt="watch Video"/>
     </td>
   </tr>
 </table>
@@ -73,7 +73,7 @@ zsh-win
    > Note: Run the `git bash` as `admin` to install from `source code`
 
 # Step #3
-<img src="./step2.png">
+<img src="./assets/step2.png">
 
 - * Choose theme between them.
 - * ❤️ Custom is great. If any issue with `custom` reffer this <a href="#issue" style="text-decoration:underline">issue</a>.
@@ -116,7 +116,7 @@ Git bash is not opening as `admin` in `windows` .
   * Click the `Git bash` profile .
   * Check the button `Run this profile as Administrator` .
 
-    <p><img src="./fIssue1.png" width="400", height="400"></p>
+    <p><img src="./assets/fIssue1.png" width="400", height="400"></p>
 
     - Then go to [`Step #2`](#step-2)
 
@@ -138,8 +138,8 @@ Icon/Symbols are `missing`.
 * Before you start, install those `.ttf` on you system
 * Then Restart your `IDe` .
 * After installation
-  - <img src="./errorzshICONS.png"> 
-  - <img src="./SuccesIcon.png">
+  - <img src="./assets/errorzshICONS.png"> 
+  - <img src="./assets/SuccesIcon.png">
 
   > Refreance: Still doesn't work  [`follow this link`](https://github.com/romkatv/powerlevel10k/issues/671) .
 
