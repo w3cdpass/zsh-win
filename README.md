@@ -18,9 +18,7 @@
   - [Git bash is not opening as admin in windows](#issue-1)
   - [`zsh` cmd not found](#issue-2)
   - [Icon/Symbols are missing](#issue-3)
-  - [Custom zsh-theme is not working](#when-to-report-an-issue)
-  - [Common Issues](#common-issues)
-  - [Troubleshooting](#troubleshooting)
+  - [Custom zsh-theme is not working](#step-4)
 
 
 # 🤓 Installtion
