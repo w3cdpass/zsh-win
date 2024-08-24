@@ -33,10 +33,7 @@ Visual Studio Code: Open File → Preferences → Settings (PC) or Code → Pref
 
 ****
 # Step #1
-  >  <div style="border-left: 4px solid yellow; padding-left: 10px;">
-  <strong style="color:yellow">IMPORTANT:</strong> <span style="text-decoration:underline;">Don't skip this step</span>.
-  </div>
-
+> ⚠️ **IMPORTANT:** Don't skip this step.
 
 ## Run `git bash` as `admin`
   - **Press:** 
