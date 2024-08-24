@@ -50,7 +50,7 @@ Visual Studio Code: Open File → Preferences → Settings (PC) or Code → Pref
 <span style="background-color:#e1e1e1;border-radius:3px;padding:2px 6px;color:black;"><strong>Git Bash</strong></span> → 
 <span style="background-color:#e1e1e1;border-radius:3px;padding:2px 6px;color:black;"><strong>Run as Administrator</strong></span>
 
-<img src="./infoadmin.png" alt="watch Video" /></p>
+<img src="./assets/infoadmin.png" alt="watch Video" /></p>
   - Above instruction is not working `goto` issue <a href="#" style="text-decoration: underline;">git bash is not opening as admin on windows</a>.
 
 ****
