@@ -3,7 +3,7 @@
 <table width="100%">
   <tr>
     <td align="center" style="width: 50%;">
-      <img src="./final.gif" alt="watch Video" width="400" height="240"/>
+      <img src="./final.gif" alt="watch Video" width="400" height="220"/>
     </td>
     <td align="center" style="width: 50%;">
       <img src="./custom.png" alt="watch Video"/>
