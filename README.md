@@ -105,7 +105,8 @@ zsh-win
   # use this cmd in git bash
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
   # ZSH_THEME="powerlevel10k/powerlevel10k"
-  sed -i.bak '/^ZSH_THEME=/c\ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
+  sed -i.bak -e '/^ZSH_THEME=/c\ZSH_THEME="powerlevel10k/powerlevel10k"' -e '/source ~\/powerlevel10k\/powerlevel10k.zsh-theme/s|source ~/|source ~/.oh-my-zsh/custom/themes/|' ~/.zshrc && echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc && echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> ~/.zshrc && zsh
+
   ```
   - Then type `p10k configure` or `zsh` . _to use it_ 
 
