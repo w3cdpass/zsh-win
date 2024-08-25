@@ -158,7 +158,8 @@ Custom `zsh-theme` is not working .
 
 
 ## Contributors 🤗
-[![Contributors](https://contrib.rocks/image?repo=w3cdpass/zsh-win)](https://github.com/w3cdpass/zsh-win/graphs/contributors)
+| [<img src="https://avatars.githubusercontent.com/u/152853354?v=4" width="100px;"/><br /><sub><b>w3cdpass</b></sub>](https://github.com/w3cdpass) | [<img src="https://avatars.githubusercontent.com/u/130740583?v=4" width="100px;"/><br /><sub><b>Kupasva</b></sub>](https://github.com/kupasva) | [<img src="https://avatars.githubusercontent.com/u/176114838?v=4" width="100px;"/><br /><sub><b>genrator-lgtm </b></sub>](https://github.com/genrator-lgtm) |
+| :---: | :---: | :---: |
 
 ### How to Contribute
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
