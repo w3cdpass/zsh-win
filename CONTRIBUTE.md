@@ -11,6 +11,13 @@
   </tr>
 </table>
 
+***
+[![npm](https://img.shields.io/npm/dt/your-package-name)](https://www.npmjs.com/package/zsh-win)
+[![GitHub stars](https://img.shields.io/github/stars/w3cdpass/zsh-win?style=social)](https://github.com/w3cdpass/zsh-win)
+[![npm version](https://img.shields.io/npm/v/zsh-win)](https://www.npmjs.com/package/zsh-win)
+***
+
+
 ## Table of Contents
 
 - [Installation](#-installtion)
@@ -21,7 +28,7 @@
   - [Custom zsh-theme is not working](#step-4)
 
 
-# 🤓 Installtion
+# 🤓 Installation
   * ## Prerequisites
     - **[Git Bash](https://git-scm.com/download/win)**: A command-line interface for Windows that provides a Unix-like shell. 
     - **[Node.js](https://nodejs.org/en/download/)**: A JavaScript runtime that allows you to run and install npm packages.  
@@ -146,5 +153,18 @@ Icon/Symbols are `missing`.
 
 Custom `zsh-theme` is not working .
 * All custom themes of `Zsh` are in `~/.oh-my-zsh/custom/themes`
-* Make sure the the `custom.zsh-theme` exist.
+* Make sure the the `custom.zsh-theme` exist.[text](c:/Users/acer/Downloads/README.md)
 * Then change the value `ZSH_THEME="custom"` in `.zshrc`.
+
+
+## Contributors 🤗
+[![Contributors](https://contrib.rocks/image?repo=w3cdpass/zsh-win)](https://github.com/w3cdpass/zsh-win/graphs/contributors)
+
+### How to Contribute
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Create a new Pull Request
