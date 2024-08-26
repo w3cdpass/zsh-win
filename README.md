@@ -3,13 +3,14 @@
 <table width="100%">
   <tr>
     <td align="center" style="width: 50%;">
-      <img src="./assets/final.gif" alt="watch Video" width="400" height="220"/>
+      <img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/final.gif" alt="watch Video" width="400" height="220"/>
     </td>
     <td align="center" style="width: 50%;">
-      <img src="./assets/custom.png" alt="watch Video"/>
+      <img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/custom.png" alt="watch img"/>
     </td>
   </tr>
 </table>
+
 
 ***
 [![npm](https://img.shields.io/npm/dt/your-package-name)](https://www.npmjs.com/package/zsh-win)
@@ -24,8 +25,8 @@
 - [Issue](#the-issue-title)
   - [Git bash is not opening as admin in windows](#issue-1)
   - [`zsh` cmd not found](#issue-2)
+  - [Custom zsh-theme is not working](#issue-4)
   - [Icon/Symbols are missing](#issue-3)
-  - [Custom zsh-theme is not working](#step-4)
 
 
 # 🤓 Installation
@@ -57,8 +58,8 @@ Visual Studio Code: Open File → Preferences → Settings (PC) or Code → Pref
 <span style="background-color:#e1e1e1;border-radius:3px;padding:2px 6px;color:black;"><strong>Git Bash</strong></span> → 
 <span style="background-color:#e1e1e1;border-radius:3px;padding:2px 6px;color:black;"><strong>Run as Administrator</strong></span>
 
-<img src="./assets/infoadmin.png" alt="watch Video" /></p>
-  - Above instruction is not working `goto` issue <a href="#" style="text-decoration: underline;">git bash is not opening as admin on windows</a>.
+<img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/infoadmin.png" alt="watch Video" /></p>
+  - Above instruction is not working `goto` issue <a href="#issue-1" style="text-decoration: underline;">git bash is not opening as admin on windows</a>.
 
 ****
 # Step #2
@@ -78,10 +79,10 @@ zsh-win
    > Note: Run the `git bash` as `admin` to install from `source code`
 
 # Step #3
-<img src="./assets/step2.png">
+<img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/step2.png">
 
 - * Choose theme between them.
-- * ❤️ Custom is great. If any issue with `custom` reffer this <a href="#issue" style="text-decoration:underline">issue</a>.
+- * ❤️ Custom is great. If any issue with `custom` reffer this <a href="#issue-4" style="text-decoration:underline">issue</a>.
 
 # Step #4⚡
 ## 🪄 After installation type `zsh-win` to see the magic in `git bash`
@@ -105,8 +106,7 @@ zsh-win
   # use this cmd in git bash
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
   # ZSH_THEME="powerlevel10k/powerlevel10k"
-  sed -i.bak -e '/^ZSH_THEME=/c\ZSH_THEME="powerlevel10k/powerlevel10k"' -e '/source ~\/powerlevel10k\/powerlevel10k.zsh-theme/s|source ~/|source ~/.oh-my-zsh/custom/themes/|' ~/.zshrc && echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc && echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> ~/.zshrc && zsh
-
+  sed -i.bak '/^ZSH_THEME=/c\ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
   ```
   - Then type `p10k configure` or `zsh` . _to use it_ 
 
@@ -122,7 +122,7 @@ Git bash is not opening as `admin` in `windows` .
   * Click the `Git bash` profile .
   * Check the button `Run this profile as Administrator` .
 
-    <p><img src="./assets/fIssue1.png" width="400", height="400"></p>
+    <p><img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/fIssue1.png" width="400", height="400"></p>
 
     - Then go to [`Step #2`](#step-2)
 
@@ -133,7 +133,7 @@ Git bash is not opening as `admin` in `windows` .
   * Download the `both` .exe files from [`source code`](https://github.com/w3cdpass/zsh-win/tree/main/js/zsh) .
   * Paste these .exe in `C:/Program Files/Git/usr/bin` , Where `Git` is installed .
   
-    <p><img src="./assets/fissue2.png" width="550" height="300"></p>
+    <p><img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/fissue2.png" width="550" height="300"></p>
 
       - Then go to [`Step #2`](#step-2)
 
@@ -144,18 +144,18 @@ Icon/Symbols are `missing`.
 * Before you start, install those `.ttf` on you system
 * Then Restart your `IDe` .
 * After installation
-  - <img src="./assets/errorzshICONS.png"> 
-  - <img src="./assets/SuccesIcon.png">
+  - <img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/errorzshICONS.png"> 
+  - <img src="https://raw.githubusercontent.com/w3cdpass/stunning-octo-tribble/main/assets/SuccesIcon.png">
 
   > Refreance: Still doesn't work  [`follow this link`](https://github.com/romkatv/powerlevel10k/issues/671) .
 
 
-### _ISSUE_ __#3__
+### _ISSUE_ __#4__
 
 Custom `zsh-theme` is not working .
-* All custom themes of `Zsh` are in `~/.oh-my-zsh/custom/themes`
-* Make sure the the `custom.zsh-theme` exist.[text](c:/Users/acer/Downloads/README.md)
-* Then change the value `ZSH_THEME="custom"` in `.zshrc`.
+* All custom themes of `Zsh` are in `~/.oh-my-zsh/custom/themes` .
+* Replace custom `custom.zsh-theme` to your zsh theme . 
+* Then change the value `ZSH_THEME="custom"` in `.zshrc` .
 
 
 ## Contributors 🤗
